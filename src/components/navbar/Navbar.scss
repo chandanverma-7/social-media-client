@@ -1,0 +1,22 @@
+.navbar{
+    height: 60px;
+    border:  1px solid gray ;
+    .container{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .right-side{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+    }
+    .logout{
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

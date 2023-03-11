@@ -1,0 +1,19 @@
+.feed{
+    .container{
+        display: flex;
+        gap: 30px;
+    }
+    .leftPart{
+        flex: 2;
+    }
+    .rightPart{
+        flex: 1;
+        margin-top: 20px;
+    }
+    .title{
+        margin-bottom: 12px;
+    }
+    .suggestion{
+        margin-top: 40px ;
+    }
+}

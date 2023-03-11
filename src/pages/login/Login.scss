@@ -1,0 +1,47 @@
+.Login{
+    width: 100vw;
+    height:100vh;
+    // background-color: rgb(124, 194, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .heading{
+        text-align: center;
+    }
+
+    .login-box{
+        min-width: 350px;
+        padding: 40px;
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+    label,input{
+        display: block;
+        width: 100%;
+        margin-block: 8px;
+    }
+    input{
+        padding: 8px 16px;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+    label{
+        font-weight: 600;
+    }
+    .submit{
+        background-color: rgb(57, 57, 161);
+        color: white;
+        font-weight:600 ;
+        border: none;
+        // font-size: 1.03rem;
+    }
+    .submit:hover{
+        background-color: rgb(32, 32, 191);
+        font-weight: bold;
+    }
+}
+.Link{
+    text-decoration: none;
+    color: rgb(51, 192, 51);
+}
